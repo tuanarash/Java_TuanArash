@@ -17,9 +17,4 @@ public class PrivateVariables {
 
     
     }
-
-    public static void main(String[] args) {
-        PrivateVariables pv = new PrivateVariables("Syafiq", 22, true, 5544554454444L, 5000);
-        pv.displayDetails();
-    }
 }
