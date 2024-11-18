@@ -15,6 +15,18 @@ public class PrivateVariables {
 
     }
 
-    
+    public void displayDetails(){
+        String nameShow = "Name ";
+        String ageShow = "Age ";
+        System.out.println(nameShow + name);
+        System.out.println(ageShow + age);
+        System.out.println("Is Alive " + isAlive);
+        System.out.println("Net Worth " + netWorth);
+        System.out.println("Salary " + salary);
+    }
+
+    public static void main(String[] args) {
+        PrivateVariables pv = new PrivateVariables("Syafiq", 22, true, 5544554454444L, 5000);
+        pv.displayDetails();
     }
 }
