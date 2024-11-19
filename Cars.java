@@ -15,7 +15,7 @@ public class Cars {
            
         }
         public static void main(String[] args) {
-             Cars FirstCar = new Cars("G Wagon", "Mercedes", 500000);
+             Cars FirstCar = new Cars("G_Wagon", "Mercedes", 500000);
             FirstCar.displayDetails();
         }
 }
