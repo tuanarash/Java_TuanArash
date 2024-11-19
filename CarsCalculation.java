@@ -8,6 +8,6 @@ public class CarsCalculation {
         CarsCalculation myCarsCalculation = new CarsCalculation();
         System.out.println("Average Price is " + myCarsCalculation.Average);
     }
+    
     }
     
-
