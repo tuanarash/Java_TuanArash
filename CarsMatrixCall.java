@@ -19,7 +19,7 @@ public class CarsMatrixCall {
 
             for (int j=0; j<CarsModel[i].length; j++) {
             
-                if (CarsPrice [i][j] == 50000) {
+                if (CarsPrice [i][j] >= 50000) {
                 System.out.println("Car Model : " + CarsModel[i][j]);
                 System.out.println("Car Price : RM " + CarsPrice[i][j]);
                 }
