@@ -6,7 +6,7 @@ public class SwitchCarScanner {
 
     public SwitchCarScanner() {
             
-             System.out.println("Enter Car model: ");
+             System.out.println("Enter Car model (AMG or i8 or Myvi): ");
              Scanner scanner = new Scanner(System.in);
              this.CarModel = scanner.nextLine();
                    
